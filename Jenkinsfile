@@ -9,7 +9,7 @@ pipeline {
     }
 
     environment{
-        registry = 'ducngminh/CICD'
+        registry = 'ducngminh/cicd-local'
         registryCredential = 'dockerhub'      
     }
 
